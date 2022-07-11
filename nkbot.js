@@ -5146,14 +5146,22 @@ ${monospace}`, MessageType.text, {
 				if (!isGroup) return reply(`*[ ! ] Este comando solo se puede usar en grupos*`)
 				let uptime = process.uptime()
 				let menutext = `${monospace}< [ ${MyInfo.NombreDelBot} ] >${monospace}
-╔═══════════
-║❂ Version del bot : ${package.version}
-║❂ Actividad : ${kyun(uptime)}
-║❂ Creador : ${MyInfo.CoCreador}
-║❂ Prefijo unico :「  ${prefix}  」
-║❂ Cliente : ${pushname}
-║❂ Rol del Cliente : ${role}
-╚═══════════
+╭┉┉╮═┈═┈═┈═┈═⬚۪۪ꓸ᭄ꦿꦼ͜͡☃️ྀུ
+
+╎༉‧ ⃟🏓 🅥͎̿͜ersion del bot: ${ paquete . versión }
+
+╎༉‧ ⃟🚄 🅨͎̿͜actividad: ${ kyun ( uptime ) }
+
+╎༉‧ ⃟☣️ 🅨͎̿͜creador: ${MyInfo.CoCreador}
+
+╎༉‧ ⃟🔥 🅨͎̿͜prefijo:「  ${prefix}  」
+
+╎༉‧ ⃟🍭 🅨͎̿͜cliente: ${pushname}
+
+╎༉‧ ⃟♻️ 🅨͎̿͜rol del cliente: ${role}
+
+╰┉┉╯═┈═┈═┈═┈═⬚۪۪ꓸ᭄ꦿꦼ͜͡☃️ྀུ
+
 ${nvn}
 ~|-------------------------|~
 ⮕ *_COMANDOS_  ☷*
